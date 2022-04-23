@@ -1,0 +1,247 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(255, 254, 254);
+}
+
+/*menu*/
+.bien {
+    padding: 15px;
+    margin: auto;
+    font-size: 35px;
+}
+
+nav {
+    background-image: linear-gradient(to right top,
+            #4200da, #5c20dd, #7035e1, #8247e5,
+            #9258e8, #8a57dc, #8355cf, #7c53c3,
+            #5f3fa5, #422b88, #25196c, #000751);
+    margin-top: 0px;
+    display: flex;
+
+    -webkit-box-shadow: -1px 18px 49px -11px rgba(0, 0, 0, 0.77);
+    -moz-box-shadow: -1px 18px 49px -11px rgba(0, 0, 0, 0.77);
+    box-shadow: -1px 18px 49px -11px rgba(0, 0, 0, 0.77);
+}
+
+nav>.nav {
+    margin: auto;
+    padding: 10px;
+}
+
+.nav li a {
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    color: black;
+    font-size: 20px;
+}
+
+.nav a:hover {
+    color: white;
+    transform: translateY(-6px);
+}
+
+
+
+/*.nav li:hover > ul{
+    display: block;/*reaperece el menu al pasar el mouse
+}*/
+
+.nav>li {
+    float: right;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+li>a {
+    text-decoration: none;
+}
+
+/*fin del menu*/
+
+/*secttion*/
+section>.section1 {
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(to right top,
+            #4200da, #5c20dd, #7035e1, #8247e5,
+            #9258e8, #8a57dc, #8355cf, #7c53c3,
+            #5f3fa5, #422b88, #25196c, #000751);
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 80px;
+    width: 45%;
+    height: auto;
+    /*sombra*/
+    -webkit-box-shadow: 29px 29px 59px -6px rgba(0, 0, 0, 0.66);
+    -moz-box-shadow: 29px 29px 59px -6px rgba(0, 0, 0, 0.66);
+    box-shadow: 29px 29px 59px -6px rgba(0, 0, 0, 0.66);
+}
+
+.section1>article>img {
+    display: block;
+    margin: auto;
+    padding: 25px 0;
+    width: 180px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.section1>article>h2 {
+    padding: 0px;
+    margin: 0px;
+    font-size: 30px;
+}
+
+.section1>article>hr {
+
+    width: 225px;
+    height: 5px;
+    background-color: white;
+    margin: auto;
+    border: none;
+}
+
+.section1>article>p {
+    margin: 15px;
+    padding: 0px;
+    font-size: 20px;
+}
+
+.boton {
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    backdrop-filter: blur(20000px);
+    /*efecto de fondo transparente*/
+    border-radius: 10px;
+    margin: 10px auto;
+    width: 150px;
+}
+
+.boton1 {
+    padding: 15px;
+    position: relative;
+}
+
+.boton1>a {
+    text-decoration: none;
+    color: white;
+}
+
+/*portafolio*/
+.portafolio {
+    text-align: center;
+    margin: 155px 0;
+}
+
+hr {
+    width: 140px;
+    height: 5px;
+    margin: auto;
+    background-color: black;
+}
+
+.grid {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    flex-wrap: wrap;
+    /*img responisvar*/
+}
+
+.child {
+    width: 400px;
+    height: 400px;
+    padding: 0px;
+    margin: 30px auto;
+    border-radius: 25px;
+    -webkit-box-shadow: 29px 29px 59px -6px rgba(0, 0, 0, 0.66);
+    -moz-box-shadow: 29px 29px 59px -6px rgba(0, 0, 0, 0.66);
+    box-shadow: 29px 29px 59px -6px rgba(0, 0, 0, 0.66);
+}
+
+.habilidades>h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.habi {
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /*img responisvar*/
+    padding: 20px;
+    transition: .3s ease;
+}
+
+/*animaciones*/
+#html:hover {
+    cursor: pointer;
+    color: #000751;
+    transform: translatey(-10px);
+}
+
+#css:hover {
+    cursor: pointer;
+    color: #25196c;
+    transform: rotate(45deg);
+}
+
+#java:hover {
+    cursor: pointer;
+    color: #4200da;
+    transform: translatey(-10px);
+}
+
+/*footer*/
+footer>h2 {
+    font-size: 30px;
+    text-align: center;
+    margin: 100px 0 0;
+}
+
+.incons {
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /*img responisvar*/
+    padding: 20px;
+}
+
+i {
+    color: black;
+}
+
+#face:hover {
+    cursor: pointer;
+    color: #4200da;
+    transform: translateY(-10px);
+}
+
+#wap:hover {
+    cursor: pointer;
+    color: #25D366;
+    transform: rotate(45deg);
+}
+
+#gmail:hover {
+    cursor: pointer;
+    color: red;
+    transform: translateY(-10px);
+}
