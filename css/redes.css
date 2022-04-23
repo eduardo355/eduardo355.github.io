@@ -104,11 +104,12 @@ section>.section1 {
 
 .section1>article>hr {
 
-    width: 225px;
+    width: 130px;
     height: 5px;
     background-color: white;
     margin: auto;
     border: none;
+
 }
 
 .section1>article>p {
@@ -148,6 +149,9 @@ hr {
     width: 140px;
     height: 5px;
     margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     background-color: black;
 }
 
