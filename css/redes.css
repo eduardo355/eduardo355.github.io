@@ -212,20 +212,6 @@ hr {
     transform: translatey(-10px);
 }
 
-@media(max-width:500px){
-    #html{
-        width: 20px;
-        margin: 0%;
-    }
-    #css{
-        width: 20px;
-        margin: 0%;
-    }
-    #java{
-        width: 20px;
-        margin: 0%;
-    }
-}
 /*footer*/
 footer>h2 {
     font-size: 30px;
@@ -265,14 +251,38 @@ i {
     color: red;
     transform: translateY(-10px);
 }
-
+/*responsive*/
 @media(max-width:500px){
+    .bien {
+        padding: 5px;
+        margin: auto;
+        font-size: 20px;
+    }
+    .nav li a {
+        padding: 5px;
+        margin: auto;
+        display: flex;
+        color: black;
+        font-size: 15px;
+    }
     .section1>article>img {
         width: 150px;
         height: 190px;
     }
     section>.section1 {
         width: 72%;
+    }
+    #html{
+        width: 20px;
+
+    }
+    #css{
+        width: 20px;
+
+    }
+    #java{
+        width: 20px;
+
     }
     #face{
         width: 20px;
