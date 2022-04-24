@@ -87,6 +87,7 @@ section>.section1 {
     box-shadow: 29px 29px 59px -6px rgba(0, 0, 0, 0.66);
 }
 
+
 .section1>article>img {
     display: block;
     margin: auto;
@@ -95,6 +96,7 @@ section>.section1 {
     height: 200px;
     border-radius: 50%;
 }
+
 
 .section1>article>h2 {
     padding: 0px;
@@ -265,6 +267,13 @@ i {
 }
 
 @media(max-width:500px){
+    .section1>article>img {
+        width: 150px;
+        height: 190px;
+    }
+    section>.section1 {
+        width: 70%;
+    }
     #face{
         width: 20px;
         padding: 0%;
@@ -277,7 +286,5 @@ i {
     }
     #gmail{
         width: 20px;
-        padding: 0%;
-        margin: 0%;
     }
 }
