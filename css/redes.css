@@ -14,6 +14,7 @@ body {
     padding: 15px;
     margin: auto;
     font-size: 35px;
+    transition:ease-out 2s;
 }
 
 nav {
@@ -23,7 +24,7 @@ nav {
             #5f3fa5, #422b88, #25196c, #000751);
     margin-top: 0px;
     display: flex;
-
+    width: 100%;
     -webkit-box-shadow: -1px 18px 49px -11px rgba(0, 0, 0, 0.77);
     -moz-box-shadow: -1px 18px 49px -11px rgba(0, 0, 0, 0.77);
     box-shadow: -1px 18px 49px -11px rgba(0, 0, 0, 0.77);
