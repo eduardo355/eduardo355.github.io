@@ -210,6 +210,20 @@ hr {
     transform: translatey(-10px);
 }
 
+@media(max-width:500px){
+    #html{
+        width: 20px;
+        margin: 0%;
+    }
+    #css{
+        width: 20px;
+        margin: 0%;
+    }
+    #java{
+        width: 20px;
+        margin: 0%;
+    }
+}
 /*footer*/
 footer>h2 {
     font-size: 30px;
@@ -248,4 +262,22 @@ i {
     cursor: pointer;
     color: red;
     transform: translateY(-10px);
+}
+
+@media(max-width:500px){
+    #face{
+        width: 20px;
+        padding: 0%;
+        margin: 0%;
+    }
+    #wap{
+        width: 20px;
+        padding: 0%;
+        margin: 0%;
+    }
+    #gmail{
+        width: 20px;
+        padding: 0%;
+        margin: 0%;
+    }
 }
